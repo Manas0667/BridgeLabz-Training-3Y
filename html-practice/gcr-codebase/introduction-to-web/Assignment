@@ -1,0 +1,156 @@
+1.
+
+Frontend Development-
+Develops the user interface (UI).
+Runs in the browser
+
+Backend Development-
+Develops server-side logic.
+Uses Java, Python, Node.js, PHP, etc.
+
+Full-Stack Development-
+Works on both frontend and backend . 
+Uses frontend and backend technologies.
+
+2. 
+     Client     
+ (Web Browser)  
+
+         |
+   HTTP Request
+         |
+         v
+
+   Web Server   
+ (Apache/Nginx) 
+         |
+ Processes Request
+         |
+         v
+
+    Database    
+ (MySQL/MongoDB)
+
+         ^
+         |
+    Sends Data
+         |
+
+   Web Server  
+
+         |
+  HTTP Response
+         |
+         v
+
+     Client     
+
+
+3. 
+User enters a website URL.
+>Browser finds the website's IP address using DNS.
+>Browser sends an HTTP request to the web server.
+>Server processes the request.
+>Server retrieves data from the database if needed.
+>Server sends HTML, CSS, and JavaScript files.
+>Browser renders the webpage.
+>User sees the webpage on the screen
+
+4. 
+ Tool                   Purpose                           
+
+ VS Code               Code editor                       
+ Google Chrome         Test web pages                    
+ Git                    Version control                   
+ GitHub                 Store source code online          
+ Node.js                JavaScript runtime                
+ npm                    Package manager                   
+ Live Server Extension  Automatically refreshes web pages 
+ Terminal               Executes commands                 
+
+5. 
+A Web Server is software that receives HTTP requests from clients (browsers) and sends back web pages or data.
+Examples
+Apache HTTP Server
+Nginx
+Microsoft IIS
+LiteSpeed
+Node.js (Express)
+
+6. 
+ Frontend Developer-
+>Designs website UI
+>Creates responsive layouts
+>Uses HTML, CSS, JavaScript
+
+Backend Developer-
+>Builds APIs
+>Handles authentication
+>Connects application with database
+>Implements business logic 
+
+Database Administrator (DBA) - 
+>Designs database
+>Maintains data security
+>Performs backup and recovery
+>Optimizes database performance
+
+7. Steps-
+1. Download Visual Studio Code.
+2. Install VS Code.
+3. Install Google Chrome.
+4. Install extensions:
+      Live Server
+      Prettier
+      HTML CSS Support
+      JavaScript (ES6) snippets
+5. Create a project folder.
+6. Create:
+      index.html
+      style.css
+      script.js 
+7. Open index.html using Live Server.
+
+
+8. Static Website           Dynamic Website
+ > Fixed content         >Content changes dynamically
+ > HTML and CSS only     >Uses server-side languages and databases
+ > Faster                >Slightly slower 
+ > Easy to host          >More complex 
+
+9. Browser          Rendering Engine
+>Google Chrome	    >Blink
+>Microsoft Edge	    >Blink
+>Mozilla Firefox	    >Gecko
+>Apple Safari	    >WebKit
+>Opera                >Blink
+
+Rendering Engine
+A rendering engine converts HTML, CSS, and JavaScript into the visual webpage shown in the browser.
+Differences:
+>Blink: Fast and widely used (Chrome, Edge, Opera).
+>Gecko: Mozilla's independent engine, focused on web standards.
+>WebKit: Used by Safari, optimized for Apple devices.
+
+
+10.                   User
+                   |
+                   v
+       
+             Web Browser
+                 v
+             HTTP Request
+                 v
+             Web Server     
+            (Apache/Nginx)    
+           |            |
+           |            |
+           v            v
+         API        Database  
+      REST API     MySQL/Mongo     
+      
+           HTTP Response
+                 |
+                 v
+            Web Browser    
+      
