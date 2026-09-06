@@ -1,0 +1,45 @@
+header {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+nav {
+    padding: 15px;
+    margin: 10px;
+}
+
+nav a {
+    margin: 10px;
+}
+
+#home {
+    padding: 50px;
+    background: linear-gradient(to right, lightblue, lightgreen);
+    background-attachment: fixed;
+}
+
+#about {
+    padding: 50px;
+    margin: 10px 0;
+    border: 2px solid black;
+    background: radial-gradient(circle, white, lightgray);
+    background-attachment: fixed;
+}
+
+#places {
+    padding: 50px;
+    background-color: lightyellow;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+}
