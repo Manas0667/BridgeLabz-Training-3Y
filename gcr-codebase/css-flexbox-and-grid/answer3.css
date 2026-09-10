@@ -1,0 +1,30 @@
+header {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.box {
+    padding: 50px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: rotate(2deg);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
