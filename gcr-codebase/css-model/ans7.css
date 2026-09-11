@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.article {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+mark {
+    color: red;
+}
+
+strong {
+    color: blue;
+}
+
+em {
+    color: green;
+}
+
+.article::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.article::first-line {
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+
+a[href^="https"] {
+    color: green;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+input:focus {
+    background-color: lightyellow;
+}
+
+
+li:nth-child(2) {
+    color: red;
+}
+
+
+h2::before {
+    content: "★ ";
+}
+
+
+h2::after {
+    content: " ★";
+}
+
+
+ul > li {
+    margin: 5px;
+}
+
+
+h2 + input {
+    padding: 8px;
+}
+
+
+input ~ p {
+    font-weight: bold;
+}
+
+main p {
+    color: purple;
+}

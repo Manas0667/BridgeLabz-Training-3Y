@@ -1,0 +1,28 @@
+form {
+    width: 300px;
+    margin: 50px auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px gray;
+}
+
+input:focus {
+    outline: 2px solid blue;
+    outline-offset: 3px;
+}
+
+textarea:focus {
+    outline: 2px dashed green;
+    outline-offset: 3px;
+}
+
+button {
+    padding: 10px 20px;
+}

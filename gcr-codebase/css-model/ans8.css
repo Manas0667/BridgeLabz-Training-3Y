@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    margin: 30px;
+    padding: 30px;
+    border: 10px solid black;
+    outline: 5px solid gray;
+}
+
+.padding {
+    padding: 30px;
+    background-color: lightblue;
+}
+
+.content {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    background-color: lightgreen;
+    box-sizing: border-box;
+    text-align: center;
+}

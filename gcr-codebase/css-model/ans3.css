@@ -1,0 +1,33 @@
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+
+.linear {
+    height: 500px;
+    padding: 100px 20px;
+    background: linear-gradient(to right, lightblue, lightpink);
+}
+
+
+.radial {
+    height: 500px;
+    padding: 100px 20px;
+    background: radial-gradient(circle, lightgreen, lightyellow);
+    background-attachment: fixed;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
