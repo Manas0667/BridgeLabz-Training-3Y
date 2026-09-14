@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, lightblue, lightpink);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px gray;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid blue;
+}

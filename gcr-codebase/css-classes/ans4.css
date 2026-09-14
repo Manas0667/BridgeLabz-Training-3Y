@@ -1,0 +1,42 @@
+p {
+    color: black;
+}
+
+.text {
+    color: blue;
+}
+
+#special {
+    color: red;
+}
+
+input[type="text"] {
+    border: 2px solid green;
+}
+
+ul > li {
+    margin: 10px;
+}
+
+h1 + p {
+    color: purple;
+}
+
+.text ~ p {
+    font-weight: bold;
+}
+
+main p {
+    padding: 5px;
+}
+
+header,
+main,
+footer {
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}

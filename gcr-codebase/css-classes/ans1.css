@@ -1,0 +1,26 @@
+.examples {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+button:active {
+    background-color: lightgreen;
+}
+
+li:nth-child(2) {
+    color: blue;
+}

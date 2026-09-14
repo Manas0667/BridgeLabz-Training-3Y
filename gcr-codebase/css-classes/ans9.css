@@ -1,0 +1,22 @@
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px gray;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: lightblue;
+}
+
+button:active {
+    transform: scale(0.95);
+}
