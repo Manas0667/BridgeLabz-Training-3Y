@@ -1,0 +1,20 @@
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.contact {
+    max-width: 500px;
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+    main .p-5 {
+        padding: 25px !important;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf3;
+}
+
+.menu-image {
+    width: 500px;
+    max-height: 280px;
+    object-fit: cover;
+}
+
+figure {
+    margin-top: 25px;
+}
+
+h2, h3 {
+    color: #6b2d1a;
+}
+
+.list-group-item {
+    padding: 15px;
+}
+
+@media (max-width: 576px) {
+    .menu-image {
+        width: 100%;
+    }
+}

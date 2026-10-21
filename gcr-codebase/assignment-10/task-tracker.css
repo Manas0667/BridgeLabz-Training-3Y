@@ -1,0 +1,24 @@
+body {
+    background-color: #f4f7fb;
+}
+
+header h1 {
+    font-weight: 700;
+}
+
+.list-group-item {
+    padding: 18px;
+    font-size: 16px;
+}
+
+.list-group-item:hover {
+    background-color: #f0f5ff;
+}
+
+.badge {
+    padding: 8px 12px;
+}
+
+footer {
+    margin-top: 50px;
+}

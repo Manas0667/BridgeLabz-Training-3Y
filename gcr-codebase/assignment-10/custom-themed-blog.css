@@ -1,0 +1,56 @@
+:root {
+    --bs-primary: #6c3fc5;
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+    background-color: #f8f6fc;
+}
+
+header {
+    background: linear-gradient(135deg, #6c3fc5, #39216e) !important;
+}
+
+h2 {
+    color: var(--bs-primary);
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-img-top {
+    height: 230px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: #39216e;
+    border-color: #39216e;
+}
+
+footer {
+    background-color: #24153f;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 190px;
+    }
+}
