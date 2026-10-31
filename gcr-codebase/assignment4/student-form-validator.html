@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            padding: 30px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .error {
+            color: red;
+            font-size: 13px;
+        }
+
+        .valid {
+            border-color: green;
+        }
+
+        .invalid {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="studentForm">
+        <h2>Student Registration</h2>
+
+        <input type="text" id="name" placeholder="Enter Name">
+        <p class="error" id="nameError"></p>
+
+        <input type="email" id="email" placeholder="Enter Email">
+        <p class="error" id="emailError"></p>
+
+        <input type="text" id="phone" placeholder="Enter Phone">
+        <p class="error" id="phoneError"></p>
+
+        <input type="password" id="password" placeholder="Enter Password">
+        <p class="error" id="passwordError"></p>
+
+        <button type="submit">Register</button>
+
+        <p id="message"></p>
+    </form>
+
+    <script src="student-form-validator.js"></script>
+</body>
+</html>
