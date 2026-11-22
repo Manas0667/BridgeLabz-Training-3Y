@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi Step Form</title>
+    <style>
+        .step {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multi-Step Registration Form</h1>
+
+    <div class="step active" id="step1">
+        <h2>Step 1: Name</h2>
+        <input type="text" id="name" placeholder="Enter name">
+    </div>
+
+    <div class="step" id="step2">
+        <h2>Step 2: Email</h2>
+        <input type="email" id="email" placeholder="Enter email">
+    </div>
+
+    <div class="step" id="step3">
+        <h2>Step 3: Password</h2>
+        <input type="password" id="password" placeholder="Enter password">
+    </div>
+
+    <p id="error" class="error"></p>
+
+    <div id="navigation">
+        <button id="backButton">Back</button>
+        <button id="nextButton">Next</button>
+    </div>
+
+    <div id="summary"></div>
+
+    <script src="multi-step-form.js"></script>
+</body>
+</html>
